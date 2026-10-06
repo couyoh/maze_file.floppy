@@ -1,0 +1,9 @@
+{
+    "name": "floppy",
+    "image": "mcr.microsoft.com/devcontainers/rust:trixie",
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    },
+    "containerUser": "vscode",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && sudo apt install -y nasm bochs-x qemu-system-x86 qemu-system-gui make"
+}

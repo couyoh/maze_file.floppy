@@ -1,0 +1,5 @@
+display_library: x, options="gui_debug"
+boot: a
+floppya: 1_44=build/floppy.img, status=inserted
+magic_break: enabled=1
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
